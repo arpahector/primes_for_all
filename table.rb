@@ -1,5 +1,6 @@
 require_relative 'prime'
 require 'terminal-table'
+
 class Table
   attr_reader :primes
 
