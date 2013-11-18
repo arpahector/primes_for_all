@@ -1,5 +1,5 @@
-class Prime < Fixnum
-	def self.get(number)
+class Prime
+  def self.get(number)
     # Sieve of Eratosthenes is faster but I don't have the time for that right now
     primes = [2, 3]
     if number <= 2
